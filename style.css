@@ -1,0 +1,317 @@
+
+.header{
+         background: #000;
+}
+#header{
+        color: #fff;
+        text-transform: uppercase;
+}
+#header h1{
+          font-size: 35px;
+          border-bottom: 1px solid rgba(255,255, 255, 0.50);
+          
+
+}
+
+
+#nav ul{
+        list-style: none;
+        margin: 0;
+        padding-top:20px;
+        
+        
+        
+}
+#nav li{
+        display: inline;
+        font-size: 18px;
+        font-weight:600;
+
+        
+}
+#nav li a{
+          text-decoration: none;
+          padding: 0px 10px 0px 10px;
+          font-variant: small-caps;
+          color: #fff;
+}
+.banner-area{
+            background:url(../images/alex-kotliarskyi-QBpZGqEMsKg-unsplash.jpg);
+            background-repeat: no-repeat;
+            background-position: 0 -220px;
+            background-size: cover;
+            height: 580px;
+            text-align: center;
+            filter:brightness(50%);
+            
+            
+}
+.banner-text{
+             position: relative;
+             bottom: 400px;
+             text-align: center;
+             font-style: oblique;
+}
+.banner-text p.text-info{
+                         font-size: 20px;
+                         font-style: normal;
+                         font-weight: bold;
+                         
+}
+
+.banner-text span.text-info{
+        font-size: 20px;
+        font-style: normal;
+        font-weight: bold;
+}
+#button{
+         margin-top: 20px;
+         
+         
+         
+}
+#button .click{
+               padding: 5px 30px;
+               border-radius: 20px;
+               font-weight: bold;
+               transition: all 400ms ease-in-out;
+               
+}
+#button .click:hover{
+                     background:darkcyan; 
+                     color: #fff;
+              
+}
+.top-brands{
+            position: relative;
+            text-align: center;
+            bottom: 350px;
+}
+
+#brands{
+         list-style: none;
+         margin: 0;
+         padding: 0;
+        
+         
+}
+#brands:hover{
+              
+}
+
+
+
+#brands li{
+           display: inline;
+           margin: 0px 30px;
+}
+.brand-1{
+         color:#fff;
+         font-size: 50px;
+         transition: color 250ms ease-in-out;
+         
+}
+
+.brand-1:hover{
+               color: grey;
+               
+        
+}
+
+
+.brand-2{
+        color: #fff;
+        font-size: 50px;
+        text-shadow: 1px 1px 2px #fff;
+        transition: all 250ms ease-in-out;
+}
+
+.brand-2:hover{
+               color:#000;
+               text-shadow: -2px 2px 3px whitesmoke;
+        
+        
+        
+}
+
+
+.brand-3{
+        color:#fff;
+        font-size: 50px;
+        transition: color 250ms ease-in-out;
+}
+
+.brand-3:hover{
+                color: deepskyblue;
+        
+                
+                
+                
+        
+        
+}
+
+
+.brand-4{
+        color: #fff;
+        font-size: 50px;
+        transition: all 250ms ease-in-out;
+}
+
+.brand-4:hover{
+                color: indigo;
+                
+        
+}
+#sub-head{
+          text-align: center;
+          position: relative;
+          bottom: 322px;
+          
+}
+#sub-head h3{
+             font-size: 15px;
+             margin-top: 50px;
+             margin-bottom: 20px;
+             letter-spacing: 5px;
+             
+             
+
+}
+#sub-head h3 span{
+                  border-bottom: 1px solid rgba(255, 255, 255, 0.8);
+                  border-bottom-color: #fff;
+}
+#sub-head h2{
+             font-style:inherit;
+             font-size: 30px;
+}
+#para-content{
+              padding: 10px 80px;
+}
+#para-content a{
+                text-decoration: underline;
+                transition:all 250ms ease-in-out;
+}
+#para-content a:hover{
+                       text-decoration: none;
+              
+}
+.service-card{
+              position: relative;
+              bottom: 322px;
+              
+}
+#card-menu{
+           position: relative;
+           bottom: 322px;
+           
+}
+#side-menu{
+           background: #fff;
+           display: block;
+           margin-right: 10px;
+           margin-top: 100px;
+          position: relative;
+          right:130px;
+}
+#side-menu li{
+              padding: 10px;
+}
+
+#head-1{
+        color: #fff;
+        display: block;
+        position: relative;
+        top: 80px;
+        right: 130px;
+        text-transform: capitalize;
+        font-size: 22px;
+        font-style: inherit;
+        
+        
+        
+}
+
+
+
+.card-1{
+        width: 150px;
+        height: 125px;
+        background: grey;
+        position: relative;
+        top: 50px;
+         
+
+        
+        
+}
+
+.card-2{
+        width: 150px;
+        height: 125px;
+        background: grey;
+        
+        
+        
+}
+
+.card-3{
+        width: 180px;
+        height: 150px;
+        background: grey;
+        position: relative;
+        top: 125px;
+        border-radius: 10px;
+        
+        
+        
+}
+
+.card-4{
+        width: 150px;
+        height: 125px;
+        background: grey;
+        
+        
+}
+
+.card-5{
+        width: 150px;
+        height: 125px;
+        background: grey;
+        
+        
+}
+
+.card-6{
+        width: 150px;
+        height: 125px;
+        background: grey;
+        
+        
+}
+
+.card-7{
+        width: 150px;
+        height: 125px;
+        background: grey;
+        
+        
+}
+
+.card-8{
+        width: 150px;
+        height: 125px;
+        background: grey;
+        
+        
+}
+
+.card-9{
+        width: 150px;
+        height: 125px;
+        background: grey;
+        
+        
+}
