@@ -96,6 +96,7 @@
          
 }
 #brands:hover{
+             color: red;
               
 }
 
@@ -216,7 +217,7 @@
           right:130px;
 }
 #side-menu li{
-              padding: 10px;
+              padding-top: 20px;
 }
 
 #head-1{
@@ -236,21 +237,40 @@
 
 
 .card-1{
-        width: 150px;
-        height: 125px;
+        width: 180px;
+        height: 150px;
         background: grey;
         position: relative;
-        top: 50px;
+        top: 125px;
+        border-radius: 10px;
+        left: 230px;
+        
          
 
         
         
 }
+.card-1,.card-2,.card-3,.card-4,.card-5,.card-6,.card-7,.card-8,.card-9{
+        text-align: center;
+        padding-top: 20px;
+        font-size: 50px;
+        color:#fff;
+        text-shadow: 2px 2px 4px #000;
+        background: #fff;
+        text-transform: capitalize;
+        
+}
+#sub-text{
+         color: grey;
+}
 
 .card-2{
-        width: 150px;
-        height: 125px;
-        background: grey;
+        width: 180px;
+        height: 150px;
+        position: relative;
+        top: 125px;
+        left: 120px;
+        border-radius: 10px;
         
         
         
@@ -259,7 +279,6 @@
 .card-3{
         width: 180px;
         height: 150px;
-        background: grey;
         position: relative;
         top: 125px;
         border-radius: 10px;
@@ -269,49 +288,60 @@
 }
 
 .card-4{
-        width: 150px;
-        height: 125px;
-        background: grey;
-        
+        width: 180px;
+        height: 150px;
+        position: relative;
+        bottom: 300px;
+        border-radius: 10px;
+        left: 230px;
         
 }
 
 .card-5{
-        width: 150px;
-        height: 125px;
-        background: grey;
+        width: 180px;
+        height: 150px;
+        position: relative;
+        bottom: 300px;
+        left: 120px;
+        border-radius: 10px;
         
         
 }
 
 .card-6{
-        width: 150px;
-        height: 125px;
-        background: grey;
+        width: 180px;
+        height: 150px;
+        position: relative;
+        bottom: 300px;
+        border-radius: 10px;
         
         
 }
 
 .card-7{
-        width: 150px;
-        height: 125px;
-        background: grey;
+        width: 180px;
+        height: 150px;
+        position: relative;
+        bottom: 260px;
+        left: 230px;
+        border-radius: 10px;
+
         
         
 }
-
 .card-8{
-        width: 150px;
-        height: 125px;
-        background: grey;
-        
-        
-}
+         width: 180px;
+         height: 150px;
+         position: relative;
+         bottom: 260px;
+         border-radius: 10px;
+         left: 120px;
 
+}
 .card-9{
-        width: 150px;
-        height: 125px;
-        background: grey;
-        
-        
+         width: 180px;
+         height: 150px;
+         position: relative;
+         bottom: 260px;
+         border-radius: 10px;
 }
