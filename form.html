@@ -1,0 +1,83 @@
+  
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Email & password validation</title>
+			<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+<style>
+.all{
+    background:lightskyblue;
+    
+}
+.second{
+    background: linear-gradient(white,lightpink);
+    border-radius: 5px;
+    
+}
+#head{
+    text-align: center;
+    margin-bottom: 30px;
+    
+}
+#tit{
+    border-bottom: 1px solid grey;
+}
+
+
+</style>
+
+</head>
+<body class="all">
+
+<div class="container">
+	<div class="row third">
+		<div class="col-md-4 first">
+		</div>
+        
+		<div class="col-md-4 border shadow-sm bg-light second" style="margin-top:8%;padding:10px;">
+        <h2 id="head"><span id="tit">Form validation</span></h2>
+			<div class="form-group">
+            
+			<div class="form-group">
+				<label>Enter Name</label>
+				<input type="name" class="form-control" id="name" placeholder="Enter Name" autocomplete="off" name="">
+				<span id="namemsg"></span>
+			</div>
+
+
+
+
+
+				<label>Enter Email</label>
+				<input type="email" class="form-control" id="email" placeholder="Enter email" autocomplete="off" name="">
+				<span id="emailMsg"></span>
+			</div>
+
+			<div class="form-group">
+				<label>Enter password:</label>
+				<input type="password" class="form-control" id="pass" placeholder="Enter password" autocomplete="off" name="">
+				<span id="passMsg"></span>
+			</div>
+
+             
+			<div class="form-group">
+				<label>Enter Number</label>
+				<input type="number" class="form-control" id="number" placeholder="Enter Number" autocomplete="off" name="">
+				<span id="nummsg"></span>
+			</div>
+
+
+            
+			<div class="form-group">
+				<button class="btn btn-outline-primary btn-block" id="btn" type="submit">Submit</button>
+			</div>
+		</div>
+		
+</div>
+
+<script src="form.js"></script>
+</body>
+</html>
